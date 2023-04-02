@@ -13,7 +13,7 @@
 
 ### This project was bootstrapped with <a href="https://vitejs.dev/guide/">npm create vite@latest</a>
 
-<p>⚠️ Make sure you have Node.js and npm installed on your computer. You can verify this by typing "node -v" and "npm -v" in your terminal or command prompt.</p>
+<p>⚠️ Make sure you have Node.js and npm installed on your computer. You can verify this by typing <strong>"node -v"</strong> and <strong>"npm -v"</strong> in your terminal or command prompt.</p>
 
 To install and run this app on your local machine, please follow these steps:
 
