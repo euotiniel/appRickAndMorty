@@ -36,16 +36,16 @@ To install and run this app on your local machine, please follow these steps:
   npm install
 ```
 
-<strong><p>Install styled-components with the command</p></strong>
-
-```
-  npm install --save styled-components
-```
-
 <strong><p>The react router dom</p></strong>
 
 ```
   npm install react-router-dom
+```
+
+<strong><p>Install styled-components with the command</p></strong>
+
+```
+  npm install --save styled-components
 ```
 
 <strong><p>Install the React Icons package</p></strong>
