@@ -1,10 +1,11 @@
 # Rick and Morty App
 
+<p>Rick and Morty is an American animated adult series created by Justin Roiland and Dan Harmon. The series follows the interdimensional adventures of Rick Sanchez, an alcoholic scientist and genius, and his grandson, Morty Smith, a shy and not very intelligent teenager, as they travel to different universes and planets in a variety of strange and dangerous adventures.</p>
+
 ![RAM_LOGO_FINAL](https://user-images.githubusercontent.com/93485038/229370139-dd9f6535-62cb-4b0f-87d5-65e6001cbff0.jpg)
 
 ## Description
-
-<p>This project is a single-page application built with React, Router-dom and Styled Components and more, which consumes the <a href="https://rickandmortyapi.com/">Rick and Morty API</a>. It displays information about the characters.</p>
+This is an application developed with React and consuming the <a href="https://rickandmortyapi.com/">Rick and Morty API</a>. The application allows you to view the characters of the Rick and Morty series and see details of each of the characters. 
 
 ![Captura de Ecrã (796)](https://user-images.githubusercontent.com/93485038/229370259-bcd4b1f8-6aef-44ba-928d-5f068d6334bf.png)
 
@@ -17,49 +18,49 @@
 
 To install and run this app on your local machine, please follow these steps:
 
-<p>Clone this repository using</p>
+<strong><p>Clone this repository using</p></strong>
 
 ```bash
   git clone https://github.com/your-username/rick-and-morty-app.git
 ```
 
-<p>Navigate into the project directory using</p>
+<strong><p>Navigate into the project directory using</p></strong>
 
 ```bash
   cd rick-and-morty-app
 ```
 
-<p>Install the dependencies using</p>
+<strong><p>Install the dependencies using</p></strong>
 
 ```bash
   npm install
 ```
 
-<p>Install styled-components with the command</p>
+<strong><p>Install styled-components with the command</p></strong>
 
 ```bash
   npm install --save styled-components
 ```
 
-<p>The react router dom</p>
+<strong><p>The react router dom</p></strong>
 
 ```bash
   npm install react-router-dom
 ```
 
-<p>Install the React Icons package</p>
+<strong><p>Install the React Icons package</p></strong>
 
 ```bash
   npm install react-icons --save
 ```
 
-<p>Install the preloader package com o comando</p>
+<strong><p>Install the preloader package com o comando</p></strong>
 
 ```bash
   npm install react-loader-spinner --save
 ```
 
-<p>And finally start the app using</p>
+<strong><p>And finally start the app using</p></strong>
 
 ```bash
   npm run dev
