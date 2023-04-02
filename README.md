@@ -20,49 +20,49 @@ To install and run this app on your local machine, please follow these steps:
 
 <strong><p>Clone this repository using</p></strong>
 
-```bash
+```
   git clone https://github.com/your-username/rick-and-morty-app.git
 ```
 
 <strong><p>Navigate into the project directory using</p></strong>
 
-```bash
+```
   cd rick-and-morty-app
 ```
 
 <strong><p>Install the dependencies using</p></strong>
 
-```bash
+```
   npm install
 ```
 
 <strong><p>Install styled-components with the command</p></strong>
 
-```bash
+```
   npm install --save styled-components
 ```
 
 <strong><p>The react router dom</p></strong>
 
-```bash
+```
   npm install react-router-dom
 ```
 
 <strong><p>Install the React Icons package</p></strong>
 
-```bash
+```
   npm install react-icons --save
 ```
 
 <strong><p>Install the preloader package com o comando</p></strong>
 
-```bash
+```
   npm install react-loader-spinner --save
 ```
 
 <strong><p>And finally start the app using</p></strong>
 
-```bash
+```
   npm run dev
 ```
 
