@@ -21,7 +21,7 @@ To install and run this app on your local machine, please follow these steps:
 <strong><p>Clone this repository using</p></strong>
 
 ```
-  git clone https://github.com/your-username/rick-and-morty-app.git
+  git clone https://github.com/otonielemanuel/appRickAndMorty.git
 ```
 
 <strong><p>Navigate into the project directory using</p></strong>
