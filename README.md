@@ -27,7 +27,7 @@ To install and run this app on your local machine, please follow these steps:
 <strong><p>Navigate into the project directory using</p></strong>
 
 ```
-  cd rick-and-morty-app
+  cd appRickAndMorty
 ```
 
 <strong><p>Install the dependencies using</p></strong>
