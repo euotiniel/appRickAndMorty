@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import styled from "styled-components"
-import { Sombra, TextHero, Container, TitleImage } from './styles'
+import { Sombra, TextHero, Container, TitleImage, Agrupador } from './styles'
 
 import BackgroundImg from '../../assets/background.png'
 import ImgTitle from '../../assets/img-title.png'
@@ -23,11 +23,13 @@ export default function index() {
     <>
       <Background>
         <Sombra>
+            <Agrupador>
             <Container>
               <TitleImage src={ImgTitle} alt='Rick and Morty' /> 
               <TextHero />
               <Link to={"/characters"}></Link>
-            </Container>  
+            </Container>
+            </Agrupador>  
         </Sombra>
       </Background>
     </>
