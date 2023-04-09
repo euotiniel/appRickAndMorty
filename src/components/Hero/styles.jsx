@@ -105,5 +105,9 @@ export const TitleImage = styled.img `
         height: 70px;
         top: 10%;
     }
+
+    @media (max-width: 375px) {
+        top: 27%;
+    }
 `
 

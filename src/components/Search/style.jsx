@@ -21,7 +21,7 @@ export const Title = styled.h1 `
     }
 
     @media (max-width: 375px) {
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
 `
@@ -42,7 +42,7 @@ export const InputSearch = styled.input `
     }
 
     @media (max-width: 375px) {
-        margin-left: -10px;
+        margin-left: -20px;
     }
 `
 

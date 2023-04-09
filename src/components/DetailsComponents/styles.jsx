@@ -91,6 +91,7 @@ export const Photo = styled.img `
 `
 
 export const DivDetails = styled.div `
+    width: 100%;
 
 `
 
@@ -144,6 +145,7 @@ export const Details = styled.div `
     @media (max-width: 375px) {
         display: flex;
         flex-direction: column;
+        width: 100%;
         margin-top: 1.5rem;
 
         span {

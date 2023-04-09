@@ -15,7 +15,7 @@ export const AgroupaList = styled.ul `
     row-gap: 4rem;
 
     @media (max-width: 375px) {
-        margin-left: -6px;
+        margin-left: -8%;
     }
 `
 
