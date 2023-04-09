@@ -8,6 +8,8 @@ export const ComponentSearch = styled.div `
 
     @media (max-width: 556px) {
         display: block;
+        align-items: center;
+        justify-content: center;
     }
 `
 
@@ -16,6 +18,10 @@ export const Title = styled.h1 `
 
     &::before {
         content: "Characters";
+    }
+
+    @media (max-width: 375px) {
+        margin-left: -10px;
     }
 
 `
@@ -33,6 +39,10 @@ export const InputSearch = styled.input `
     @media (max-width: 556px) {
         width: 95%;
         margin-top: 30px;
+    }
+
+    @media (max-width: 375px) {
+        margin-left: -10px;
     }
 `
 

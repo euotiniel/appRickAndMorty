@@ -13,6 +13,10 @@ export const AgroupaList = styled.ul `
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 2rem;
     row-gap: 4rem;
+
+    @media (max-width: 375px) {
+        margin-left: -6px;
+    }
 `
 
 export const List = styled.li `

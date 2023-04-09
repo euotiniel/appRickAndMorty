@@ -9,6 +9,12 @@ export const Footer = styled.footer `
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media (max-width: 375px) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
     }
 `
 
@@ -43,6 +49,10 @@ export const DivSocialMidia = styled.div `
 
         &:hover {
             color: ${props => props.theme.colors.green};
+        }
+
+        @media (max-width: 375px) {
+            font-size: 1.2rem;
         }
     }
 `

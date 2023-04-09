@@ -43,6 +43,12 @@ export const ContainerInfo = styled.div `
         align-items: center;
         margin-bottom: 5rem;
     }
+
+    @media (max-width: 375px) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
 `
 
 export const Title = styled.h1 `
@@ -56,13 +62,11 @@ export const Title = styled.h1 `
         color: ${props => props.theme.colors.green};   
     }
 
-    @media (max-width: 920px) {
-        margin-top: 5rem;
+    @media (max-width: 375px) {
+        margin-top: 35rem;
     }
 
-    @media (max-width: 320px) {
-        margin-top: 5rem;
-    }
+
 `
 
 export const Photo = styled.img `
@@ -134,6 +138,17 @@ export const Details = styled.div `
             margin-left: 5px;
             font-weight: 400;
             font-size: 1.3rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+
+        span {
+            margin-left: 0px;
+            margin-top: 5px;
         }
     }
 `

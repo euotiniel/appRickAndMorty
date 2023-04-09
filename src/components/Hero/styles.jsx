@@ -73,6 +73,14 @@ export const TextHero = styled.p `
         font-weight: 300;
     }
 
+    @media (max-width: 375px) {
+        width: 98%;
+        top: 42.5%;
+        font-size: 0.99rem;
+        line-height: 18px;
+        font-weight: 300;
+    }
+
     @media (max-width: 320px) {
         width: 90%;
         top: 30%;
