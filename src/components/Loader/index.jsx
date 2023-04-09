@@ -1,4 +1,3 @@
-import React from 'react'
 import { Oval } from 'react-loader-spinner'
 
 import { LoaderDiv } from './styles'

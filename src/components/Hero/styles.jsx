@@ -39,10 +39,6 @@ export const Container = styled.div `
     }
 `
 
-export const Agrupador = styled.div`
-    
-`
-
 export const TextHero = styled.p `
     line-height: 25px;
     color: ${props => props.theme.colors.white};

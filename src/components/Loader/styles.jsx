@@ -5,4 +5,4 @@ export const LoaderDiv = styled.div `
     align-items: center;
     justify-content: center;
     height: 85vh;
-`
+`;
