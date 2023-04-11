@@ -2,26 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div `
     color: ${porps => porps.theme.colors.white};
-    position: absolute;
-    width: 70%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	height: 100vh;
 
-    @media (max-width: 920px) {
-        width: 80%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    div {
+        width: 90%;
     }
-
-    @media (max-width: 320px) {
-        width: 80%;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
 `
 export const ContainerInfo = styled.div `
     border: 2px solid ${props => props.theme.colors.green};
