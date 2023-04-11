@@ -23,6 +23,7 @@ export const List = styled.li `
     align-items: center;
     border: 1px solid ${props => props.theme.colors.baldGreen};
     border-radius: 20px;
+    width: 275px !important;
 `
 
 export const CharacterInfo = styled.div `

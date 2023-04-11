@@ -51,6 +51,12 @@ export const TextHero = styled.p `
     &::before {
         content: "Rick and Morty is an American animated adult series created by Justin Roiland and Dan Harmon. The series follows the interdimensional adventures of Rick Sanchez, an alcoholic scientist and genius, and his grandson, Morty Smith, a shy and not very intelligent teenager, as they travel to different universes and planets in a variety of strange and dangerous adventures.";
     }
+
+    @media (max-width: 375px) {
+        width: 90%;
+        font-size: 1rem;
+        font-size: 200;
+    }
 `
 
 export const TitleImage = styled.img `

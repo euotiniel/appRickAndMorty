@@ -60,11 +60,16 @@ export const AgroupList = styled.ul `
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 2rem;
     row-gap: 4rem;
+
+    @media (max-width: 375px) {
+        margin-left: -8%;
+    }
 `
 export const List = styled.li `
     align-items: center;
     border: 1px solid ${props => props.theme.colors.baldGreen};
     border-radius: 20px;
+    width: 275px;
 `
 
 export const CharacterInfo = styled.div `
