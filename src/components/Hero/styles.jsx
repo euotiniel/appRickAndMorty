@@ -25,6 +25,7 @@ export const Container = styled.div `
         text-decoration: none;
         transition: transform 0.5s ease-in-out;
         color: ${props => props.theme.colors.blue};
+        transition: 0.7s ease;
 
         &:hover {
             border: 1px solid ${props => props.theme.colors.blue};
