@@ -29,8 +29,6 @@ export const Container = styled.div `
         &:hover {
             border: 1px solid ${props => props.theme.colors.blue};
             color: ${props => props.theme.colors.green};
-            font-style: oblique;
-            transform: skew(-10deg);
         }
 
         &::before {
