@@ -1,6 +1,4 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-
+import React, { useState, useEffect } from 'react'
 import Navbar from '../../components/Navbar'
 import CharactersComponents from '../../components/CharactersComponents'
 import Search from '../../components/Search'
@@ -10,22 +8,28 @@ import Loader from '../../components/Loader'
 export default function index() {
 
   const [isLoading, setIsLoading] = useState(true);
+  const [isDataLoaded, setIsDataLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 800)
-  })
+    fetch('https://rickandmortyapi.com/api/character')
+      .then(res => res.json())
+      .then(data => {
+        setIsDataLoaded(true);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.log(error);
+        setIsLoading(false);
+      });
+  }, []);
 
   return (
     <>
       <Navbar /> 
-      {
-        isLoading ? (<Loader />)
-        :
+      {isLoading ? <Loader /> :
         <>
           <Search />
-          <CharactersComponents />
+          {isDataLoaded && <CharactersComponents />}
           <Footer />
         </>
       }
