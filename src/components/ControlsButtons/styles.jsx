@@ -12,7 +12,7 @@ export const ListItem = styled.li `
 `
 
 export const ButtonNext = styled.button `
-    padding: 15px 25px 15px 25px;
+    padding: 15px 20px 15px 20px;
     border: none;
     font-size: 0.9rem;
     font-weight: 500;
@@ -21,13 +21,11 @@ export const ButtonNext = styled.button `
 
     &:hover {
         background-color: #5fc038b5 !important;
-        font-style: oblique;
-        transform: skew(-5deg);
     }
 `
 
 export const ButtonPrev = styled.button `
-    padding: 15px 25px 15px 25px;
+    padding: 15px 20px 15px 20px;
     border: none;
     font-size: 0.9rem;
     font-weight: 500;
@@ -36,13 +34,11 @@ export const ButtonPrev = styled.button `
 
     &:hover {
         background-color: #5fc038b5 !important;
-        font-style: oblique;
-        transform: skew(5deg);
     }
 `
 
 export const ButtonNeutro = styled.button `
-    padding: 15px 25px 15px 25px;
+    padding: 15px 20px 15px 20px;
     border: none;
     font-size: 0.9rem;
     font-weight: 500;

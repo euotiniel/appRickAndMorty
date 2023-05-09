@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom'
 
-import { Container, ContainerInfo, Title, Photo, DivDetails, Details } from './styles'
+import { Container, ContainerInfo, Title, DivPhoto, Photo, DivDetails, Details } from './styles'
 
 export default function index() {
 
@@ -41,9 +41,9 @@ export default function index() {
         </Title>
 
         <ContainerInfo>
-            <div>
+            <DivPhoto>
                 <Photo src={personagem.image} alt="" />
-            </div>
+            </DivPhoto>
                 
             <DivDetails>
                 <Details>

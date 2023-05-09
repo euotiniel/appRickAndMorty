@@ -31,30 +31,18 @@ export const ContainerInfo = styled.div `
     align-items: center;
     column-gap: 1.5rem;
 
-    @media (max-width: 920px) {
-        padding: 1.5rem;
+    @media (max-width: 900px) {
         display: flex;
+        flex-direction: column;
         align-items: center;
         column-gap: 1.5rem;
     }
 
-    @media (max-width: 320px) {
-        padding: 1.5rem;
-        display: block;
-        align-items: center;
-        margin-bottom: 5rem;
-    }
-
-    @media (max-width: 375px) {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10rem;
-    }
 `
 
 export const Title = styled.h1 `
     color: ${props => props.theme.colors.white};
-    margin-bottom: 2rem;
+    margin: 2rem;
     font-style: italic;
 
     a {
@@ -70,8 +58,13 @@ export const Title = styled.h1 `
 
 `
 
+export const DivPhoto = styled.div`
+    width: 100%;
+`;
+
 export const Photo = styled.img `
     height: 350px;
+    width: 100%;
     user-select: none;
     object-fit: cover;
     background-position: center center;
@@ -81,6 +74,7 @@ export const Photo = styled.img `
     @media (max-width: 920px) {
         width: 100%;
         height: 300px;
+        margin-bottom: 20px;
     }
 
     @media (max-width: 320px) {

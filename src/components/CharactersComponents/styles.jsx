@@ -23,7 +23,7 @@ export const List = styled.li `
     align-items: center;
     border: 1px solid ${props => props.theme.colors.baldGreen};
     border-radius: 20px;
-    width: 275px !important;
+    width: 100%;
 `
 
 export const CharacterInfo = styled.div `
@@ -73,7 +73,7 @@ export const OutherInfo = styled.div `
 
 export const Photo = styled.img `
     width: 100%;
-    height: 300px;
+    height: 270px;
     user-select: none;
     object-fit: cover;
     background-position: center center;

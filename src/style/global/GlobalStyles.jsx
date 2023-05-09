@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     ::-webkit-scrollbar {
-        width: 8px;
-        background-color: #000;
+        width: 7px;
+        background-color: #050607;
     }
   
     ::-webkit-scrollbar-thumb {
