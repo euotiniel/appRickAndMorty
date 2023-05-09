@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div `
     color: ${porps => porps.theme.colors.white};
     margin: 0 4rem 0 4rem;
-`
+`;
 
 export const AgroupaList = styled.ul `
     margin-top: -3rem;
@@ -17,14 +17,14 @@ export const AgroupaList = styled.ul `
     @media (max-width: 375px) {
         margin-left: -8%;
     }
-`
+`;
 
 export const List = styled.li `
     align-items: center;
     border: 1px solid ${props => props.theme.colors.baldGreen};
     border-radius: 20px;
     width: 100%;
-`
+`;
 
 export const CharacterInfo = styled.div `
     padding: 0 20px 20px 20px;
@@ -42,7 +42,7 @@ export const CharacterInfo = styled.div `
     p span {
         font-weight: 500;
     }
-`
+`;
 
 export const Name = styled.h3 `
     font-size: 1.5rem;
@@ -50,7 +50,7 @@ export const Name = styled.h3 `
     margin-bottom: 1rem;
     font-weight: 500;
     color: ${props => props.theme.colors.green};
-`
+`;
 
 export const OutherInfo = styled.div `
     padding: 10px;
@@ -69,7 +69,7 @@ export const OutherInfo = styled.div `
     span {
         font-weight: 400;
     }
-`
+`;
 
 export const Photo = styled.img `
     width: 100%;
@@ -79,4 +79,4 @@ export const Photo = styled.img `
     background-position: center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-`
+`;
